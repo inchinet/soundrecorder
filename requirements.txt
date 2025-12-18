@@ -1,0 +1,8 @@
+mss
+numpy
+opencv-python
+soundcard
+scipy
+pillow
+moviepy
+pywin32
