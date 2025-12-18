@@ -1,0 +1,27 @@
+功能特色 GitHub: https://github.com/inchinet/soundrecorder
+
+
+setup /venv with python.
+handle 4K monitor co-ordinates.
+多種錄影模式; must record sound by default if video on screen have sound:
+
+UI allow user select on screen, remain UI after startup.  Minimize script after startup.
+1)Region Mode (區域模式)：透過可調整綠色視窗，精準選擇錄影範圍。支援即時座標顯示 (X, Y, W, H)。
+2)Full Screen (全螢幕模式)：一鍵鎖定整個螢幕進行錄製，包含工具列與視窗邊框。
+高解析度支援：自動偵測並適應 4K/High DPI 螢幕，錄製範圍不跑位。
+直覺介面：簡單的開始/停止按鈕，錄影結束後自動跳出存檔對話框。
+輕量化高效能：基於 mss (截圖) 與 opencv (寫入)，資源佔用低。
+
+UI 選擇模式：
+預設為 Region Mode，拖曳「綠色視窗」至您想錄製的區域。
+若需全螢幕，點擊橘色的 Full Screen 按鈕。
+開始錄影：點擊 START Recording。
+Region Mode 下，綠色視窗會隱藏。
+Full Screen Mode 下，將錄製所有畫面。
+停止錄影：點擊 STOP。存檔：選擇儲存路徑 (MP4 格式)。
+write app.log (clear everytime, for system error)
+
+KILL all pop-up boxes when EXIT.
+
+---
+
